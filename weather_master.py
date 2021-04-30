@@ -2,9 +2,9 @@ temp = []
 cold = []
 total_temp = 0
 day = 0
-out = -100
+out = -100  # user can change this constant
 
-print("Jessie \"Weather Master 4.0\"!")
+print('Weather Master 4.0!')
 intemp = int(input('Next Temperature (or -100 to quit): '))
 
 if intemp == out:
